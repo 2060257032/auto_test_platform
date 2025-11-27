@@ -15,3 +15,15 @@
 - ✅ CI/CD流水线
 
 ## 项目结构
+├── app/ # Web应用
+│ ├── app.py
+│ └── requirements.txt
+├── tests/ # 测试用例
+│ ├── test_app.py
+│ └── requirements.txt
+├── scripts/ # 自动化脚本
+│ ├── start.sh
+│ └── test.sh
+├── Dockerfile
+├── docker-compose.yml
+└── README.md
